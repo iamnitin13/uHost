@@ -1,7 +1,6 @@
 #product-overview {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), transparent),
-    url("./images/env.jpeg") left 10% bottom 20% / cover no-repeat border-box,
-    #ff1b68;
+    url("./images/env.jpeg") center / cover no-repeat border-box, #ff1b68;
   /* background: url("./images/env.jpeg");
     background-position:left 10% bottom 20% ;
     background-size: cover;
