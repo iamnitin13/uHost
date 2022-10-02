@@ -63,15 +63,19 @@ main {
   .testimonial {
     margin: 3rem auto;
     max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   .testimonial__image-container {
-    width: 65%;
-    display: inline-block;
-    vertical-align: middle;
+    width: 50%;
+    transform: skewX(5deg);
+    overflow: hidden;
+  }
+  .testimonial__image {
+    transform: skewX(-5deg) scale(1.4);
   }
   .testimonial__info {
-    display: inline-block;
-    vertical-align: middle;
     width: 30%;
   }
 }
